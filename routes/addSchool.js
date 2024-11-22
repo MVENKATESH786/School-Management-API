@@ -29,3 +29,4 @@ router.post("/addSchool", validateInputs, (req, res) => {
 });
 
 module.exports = router;
+
