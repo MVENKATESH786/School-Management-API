@@ -2,7 +2,7 @@
 
 # **School Management API**
 
-This project is a simple School Management System built using **Node.js**, **Express.js**, and **MySQL**. The API provides endpoints to add new schools and retrieve a list of schools sorted by their proximity to a user-specified location.
+This project is a simple School Management System built using Node.js, Express.js, and MySQL. The API provides endpoints for adding new schools and retrieving a list of schools sorted by their proximity to a user-specified location.
 
 ---
 
@@ -19,7 +19,7 @@ This project is a simple School Management System built using **Node.js**, **Exp
 
 ### 1. **Add School**
 
-- **Endpoint**: `POST /api/addSchool`
+- **Endpoint**: `POST /API/addSchool`
 - **Request Body** (JSON):
 
   ```json
@@ -37,7 +37,7 @@ This project is a simple School Management System built using **Node.js**, **Exp
     ```json
     {
       "message": "School added successfully",
-      "schoolId": 1
+      "school Id": 1
     }
     ```
 
