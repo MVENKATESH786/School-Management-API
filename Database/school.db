@@ -1,0 +1,15 @@
+CREATE DATABASE school_management_01;
+
+USE school_management_01;
+
+CREATE TABLE schools (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  address VARCHAR(255) NOT NULL,
+  latitude FLOAT NOT NULL,
+  longitude FLOAT NOT NULL
+);
+
+
+
+https://api.postman.com/collections/39925653-5a84d5a5-38e7-4d47-a841-d7f493a95f55?access_key=PMAT-01JD9S9Q0VTA2EA4RK4Z9ZQVRS

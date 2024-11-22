@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "School Management",
+    "description": "APIs for managing school data",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add School",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": {
+          "raw": "{{baseUrl}}/api/addSchool",
+          "host": ["{{baseUrl}}", "api", "addSchool"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Green Valley High School\",\n    \"address\": \"123 Main Street, Springfield\",\n    \"latitude\": 37.7749,\n    \"longitude\": -122.4194\n}"
+        }
+      }
+    },
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/api/listSchools?latitude=37.7749&longitude=-122.4194",
+          "host": ["{{baseUrl}}", "api", "listSchools"],
+          "query": [
+            { "key": "latitude", "value": "37.7749" },
+            { "key": "longitude", "value": "-122.4194" }
+          ]
+        }
+      }
+    }
+  ]
+}
