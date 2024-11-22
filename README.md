@@ -2,7 +2,7 @@
 
 # **School Management API**
 
-This project is a simple School Management System built using Node.js, Express.js, and MySQL. The API provides endpoints for adding new schools and retrieving a list of schools sorted by their proximity to a user-specified location.
+This project is a simple School Management System built using Node.js, Express.js, and MySQL. The API provides endpoints for adding new schools and retrieving a list of schools sorted by proximity to a user-specified location.
 
 ---
 
@@ -147,7 +147,7 @@ npm start
 
 ## **Hosting and Live Testing**
 
-- **Live URL**: [https://school-management.onrender.com](https://school-management.onrender.com)  
+- **Live URL**: [https://school-management-api.railway.com](https://school-management-api-production-48e7.up.railway.app/)  
   (Replace with the actual URL after deployment)
 
 ---
@@ -161,18 +161,8 @@ npm start
 
 ## **Deliverables**
 
-1. **Source Code Repository**: [GitHub Repository](https://github.com/<your-username>/school-management-api)  
-2. **Live API Endpoints**: [Hosted API URL](https://school-management.onrender.com)  
-3. **Postman Collection**: [Postman Collection Link](#)  
-
----
-
-## **Contact Information**
-
-- **Name**: [Your Name]  
-- **Email**: [Your Email]  
-- **Phone**: [Your Contact Number]  
-- **Resume**: [Link to Your Resume]  
+1. **Live API Endpoints**: [Hosted API URL](https://school-management.onrender.com)  
+2. **Postman Collection**: [Postman Collection Link](#)  
 
 ---
 
